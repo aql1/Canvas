@@ -90,7 +90,18 @@ This is a Java-based **Graphics Editor** application that provides a versatile a
 ```
 GraphicsEditor/
 ├── Canvas.java     # Main application file
-├── assets/         # Image assets for buttons (e.g., icons)
+├── Pen.png         # Pen tool icon
+├── Eraser.png      # Eraser tool icon
+├── Clear.png       # Clear button icon
+├── Shapes.png      # Shapes tool icon
+├── Text.png        # Text tool icon
+├── undo.png        # Undo button icon
+├── Do.png          # Redo button icon
+├── Vector.png      # Vector button icon
+├── Save.png        # Save button icon
+├── Open.png        # Open button icon
+├── RAnimation.png  # Redo animation button icon
+├── UAnimations.png # Undo animation button icon
 └── README.md       # Project documentation (this file)
 ```
 
@@ -98,7 +109,7 @@ GraphicsEditor/
 
 ## Notes
 
-- Ensure the `assets/` folder contains all necessary icons (e.g., Pen.png, Eraser.png).
+- Ensure all the icon files (e.g., `Pen.png`, `Eraser.png`) are located in the same directory as `Canvas.java`.
 - The application initializes with a blank canvas.
 - Custom animations are supported for undo/redo actions.
 
